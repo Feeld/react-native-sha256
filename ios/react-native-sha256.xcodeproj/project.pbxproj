@@ -96,6 +96,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CD7408CE1ECDFA2900866FA7;
@@ -213,6 +214,7 @@
 		CD7408E11ECDFA2900866FA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../../ios/Pods/Headers/Public/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -222,6 +224,7 @@
 		CD7408E21ECDFA2900866FA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../../ios/Pods/Headers/Public/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
